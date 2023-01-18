@@ -1,0 +1,74 @@
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1044px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+a:link {
+  color: #00f;
+}
+
+a:visited {
+  color: #005;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.title,
+.sub-title,
+.hard-skills-list,
+.soft-skills-list {
+  border-bottom: 1px solid turquoise;
+}
+
+.text-container {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.title {
+  display: inline-block;
+
+  font-style: italic;
+}
+
+.sub-title {
+  display: inline-block;
+
+  font-weight: 700;
+}
+
+.main-image {
+  padding: 10px;
+  border: 2px solid turquoise;
+
+  float: right;
+  clear: left;
+  flex-grow: 1;
+}
+
+.table {
+  width: 100%;
+}
+
+.left-column {
+  text-align: left;
+}
+
+.table th {
+  background-color: aquamarine;
+
+  text-transform: uppercase;
+}
+
+.table td {
+  background-color: lightcyan;
+}
+
+.hard-skills-list {
+  list-style-type: square;
+}
